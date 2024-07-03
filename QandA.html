@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask Your Question</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <h1 id="ayq-heading">Ask Your Question</h1>
+    </header>
+    <section id="form-section">
+        <div>
+            <form id="form-holder">
+
+                <div id="right-holder">
+                    <h1 id="name-heading">Name</h1>
+                    <h1 id="branch-heading">Branch</h1>
+                    <h1 id="phone-heading">Phone Number </h1>
+                    <h1 id="faculty-heading">Designation </h1>
+                    <h1 id="phone-heading">Upload your Question </h1>
+                </div>
+
+                <div id="left-holder">
+                    <!-- name entry -->
+                    <input id="name-input" type="text">
+                    <!-- branch entry -->
+                    <select id="branch-input" name="city">
+                        <option value="IT">IT</option>
+                        <option value="CSE">CSE</option>
+                        <option value="EE">EE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="CIVIL">CIVIL</option>
+                        <option value="AIDS">AIDS</option>
+                        <option value="MT">MT</option>
+                        <option value="ECE">ECE</option>
+                        <option value="IP">IP</option>
+                    </select>
+                    <!-- phone entry -->
+                    <input id="phone-input" type="number">
+                    <div id="designation-input">
+                        <!-- designation entry -->
+                        <input id="faculty-input1" type="radio" class="faculty" value="Faculty" name="gg">
+                        
+                        <label for="faculty-input1">
+                            Faculty
+                        </label>
+                        
+                        <input id="faculty-input2" type="radio" class="faculty" value="Student" name="gg">
+                        
+                        <label for="faculty-input2">
+                            Student
+                        </label>
+                    </div>
+                    <!-- question entry -->
+                    <!-- <label for="ques-input">Enter your question here</label> -->
+                    <input type="text" id="ques-input">
+
+                </div>
+            </form>
+            
+        </div>
+    </section>
+    <!-- <marquee>this is the demo website. dont take it seriously</marquee> -->
+    <section id="back-section">
+        <a href="http://127.0.0.1:5500/index.html"><button id="book-button"><a id="book-text" href="http://127.0.0.1:5500/index.html">Submit</a></button></a>
+    </section>
+</body>
+</html>

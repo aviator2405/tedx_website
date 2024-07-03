@@ -1,0 +1,283 @@
+*{
+    /* background-color: blueviolet; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#about-us-heading{
+    padding: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+#ted-holder{
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border: 5px solid white;
+    margin-top: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#ted-heading {
+    font-weight: 900;
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    font-size: xxx-large;
+    color: red;
+    /* opacity: 0; */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#ted-out-box-heading{
+    color: red;
+    font-weight: 900;
+    font-size:xx-large ;
+    /* margin-top: 3%; */
+    margin-left: 1.5%;
+    opacity: 0;
+    font-size: small;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedx-holder{
+    padding: 20px;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    border: 5px solid white ;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedx-heading {
+    font-weight: 900;
+    position:absolute;
+    top: 73%;
+    left: 45%;
+    font-size: xxx-large;
+    color: red;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedx-out-box-heading{
+    color: red;
+    font-weight: 900;
+    font-size:xx-large ;
+    /* margin-top: 3%; */
+    margin-left: 1.5%;
+    opacity: 0;
+    font-size: small;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedxjec-holder{
+    padding: 20px;
+    margin-top: 2%;
+    color: white;
+    text-align: center;
+    border: 5px solid white ;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedxjec-heading {
+    font-weight: 900;
+    position:absolute;
+    top: 107.5%;
+    left: 42%;
+    font-size: xxx-large;
+    color: red;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedxjec-out-box-heading{
+    color: red;
+    font-weight: 900;
+    font-size:xx-large ;
+    /* margin-top: 3%; */
+    margin-left: 1.5%;
+    opacity: 0;
+    font-size: small;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#jec-holder{
+    padding: 20px;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    border: 5px solid white ;
+    /* margin-top: 4.5%; */
+    margin-bottom: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#jec-heading {
+    font-weight: 900;
+    position:absolute;
+    top: 145%;
+    left: 22%;
+    font-size: xxx-large;
+    color: red;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#jec-out-box-heading{
+    color: red;
+    font-weight: 900;
+    font-size:xx-large ;
+    /* margin-top: 3%; */
+    margin-left: 1.5%;
+    opacity: 0;
+    font-size: small;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#ted-body{
+    font-size:26px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#tedx-body{
+    font-size:26px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+
+}
+#tedxjec-body{
+    font-size:26px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+#jec-body{
+    font-size:26px;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+#ted-holder:hover{
+    border-color: red;
+    #ted-heading{
+        opacity: 0;
+    }
+    #ted-body{
+        opacity: 100;
+    }
+    #ted-out-box-heading{
+        opacity: 100;
+        font-size: xx-large;
+    }
+    
+}
+#tedx-holder:hover{
+    border-color: red;
+    #tedx-heading{
+        opacity: 0;
+    }
+    #tedx-body{
+        opacity: 100;
+    }
+    #tedx-out-box-heading{
+        opacity: 100;
+        font-size: xx-large;
+    }
+    
+}
+#tedxjec-holder:hover{
+    border-color: red;
+    #tedxjec-heading{
+        opacity: 0;
+    }
+    #tedxjec-body{
+        opacity: 100;
+    }
+    #tedxjec-out-box-heading{
+        opacity: 100;
+        font-size: xx-large;
+    }
+    
+}
+#jec-holder:hover{
+    border-color: red;
+    #jec-heading{
+        opacity: 0;
+    }
+    #jec-body{
+        opacity: 100;
+    }
+    #jec-out-box-heading{
+        opacity: 100;
+        font-size: xx-large;
+    }
+    
+}
+
+#back-section{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#book-button{
+    /* position: absolute; */
+    /* top:580px; */
+    background-color: red;
+    /* left: 940px; */
+    width:250px;
+    /* margin-top: inset 10px; */
+    text-align: center;
+    height: 55px;
+    border-radius: 25px;
+    color: white;
+    /* box-shadow: 0px 0px 20px red;    */
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+#book-text{
+    display: inline-block;
+    margin-top: 5%;
+    font-size: x-large;
+    box-shadow: 0px 0px 50px red;
+    text-decoration: none;
+    color:inherit;
+}
+#book-button:hover{
+    box-shadow: 0px 0px 20px red;
+}
+body {
+    background-color: black;
+}

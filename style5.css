@@ -1,0 +1,113 @@
+*{
+    /* background-color: blueviolet; */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color:white
+}
+#ayq-heading{
+    padding: 50px;
+    background-color: red;
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: underline;
+    font-weight: 800;
+}
+#form-holder{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    box-shadow: 0px 0px 10px red;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-evenly;
+}
+#right-holder{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+#left-holder{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    /* font-size: 45px; */
+}
+#name-input{
+    margin: 2%;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px red;
+    /* border-style:dashed ; */
+    /* border-width: 1px;
+    border-color: red; */
+    
+    font-size:35.5px;
+}
+#branch-input{
+    background-color: black;
+    color:white;
+    margin: 2%;
+    font-size:32.5px;
+}
+#phone-input{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px red;
+    margin: 2%;
+    font-size:32.5px;
+}
+#designation-input{
+    margin: 2%;
+    font-size:32.5px;
+}
+#ques-input{
+    margin: 2%;
+    color: WHITE;
+    box-shadow: 0px 0px 10px red;
+    /* padding: inset left */
+    background-color: black;
+    /* height: 66px; */
+    font-size:32.5px;
+}
+#back-section{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#book-button{
+    /* position: absolute; */
+    /* top:580px; */
+    background-color: red;
+    /* left: 940px; */
+    width:250px;
+    /* margin-top: inset 10px; */
+    text-align: center;
+    height: 55px;
+    border-radius: 25px;
+    color: white;
+    /* box-shadow: 0px 0px 20px red;    */
+    margin-right: 5%;
+    font-size: x-large;
+    box-shadow: 0px 0px 50px red;
+    text-decoration: none;
+    margin-bottom: 2%;
+}
+#book-text{
+    display: inline-block;
+    margin-top: 5%;
+    font-size: x-large;
+    box-shadow: 0px 0px 50px red;
+    text-decoration: none;
+    color:inherit;
+}
+#book-button:hover{
+    box-shadow: 0px 0px 20px red;
+}
+body{
+    background-color: black;
+}
